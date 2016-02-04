@@ -8,21 +8,22 @@
  require_once ROOT_URL.'\Blog\View\header.php';  ?>
 
 
-<?php print $data; ?>
+
 
 
 <div class="container">
     <div class="row">
         <div class="col-md-8">
                     <div class="panel panel-default">
-                        <form>
+                        <?php print $data; ?>
+                        <form me method="post" action="?action=admin">
                             <div class="form-group">
-                                <label class="sr-only" for="exampleInputEmail3">Email address</label>
-                                <input type="email" class="form-control" id="exampleInputEmail3" placeholder="Email">
+                                <label class="sr-only" for="exampleInputEmail3">User Name</label>
+                                <input type="text" class="form-control" id="exampleInputEmail3" name="username" placeholder="Email" value="">
                             </div>
                             <div class="form-group">
                                 <label class="sr-only" for="exampleInputPassword3">Password</label>
-                                <input type="password" class="form-control" id="exampleInputPassword3" placeholder="Password">
+                                <input type="password" class="form-control" id="exampleInputPassword3" name="password" placeholder="Password" value="">
                             </div>
                             <div class="form-group">
                                 <div class="checkbox">

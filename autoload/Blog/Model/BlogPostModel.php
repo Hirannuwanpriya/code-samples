@@ -8,13 +8,13 @@ namespace Blog\Model;
  */
 class BlogPostModel
 {
-    private $id;
-    private $title;
-    private $body;
-    private $summary;
-    private $author;
-    private $date_created;
-    private $date_edited;
+    public  $id;
+    public $title;
+    public $body;
+    public $summary;
+    public $author;
+    public $date_created;
+    public $date_edited;
 
     /**
      * @return mixed
@@ -109,7 +109,7 @@ class BlogPostModel
      */
     public function setSummary($summary)
     {
-        $this->summary = $summary;
+        $this->body = $summary;
     }
 
     /**

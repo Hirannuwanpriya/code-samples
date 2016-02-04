@@ -40,18 +40,14 @@
 
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <?php if (isset($_SESSION['admin']) && $_SESSION['admin'] == 'admin' ): ?>
             <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Add Post</a></li>
+            <?php if (isset($_SESSION['admin']) && $_SESSION['admin'] == 'admin' ): ?>
+                <li class="active"><a href="?action=admin">List Post</a></li>
+                <li><a href="?action=post">Add Post</a></li>
                 <li><a href="#">User</a></li>
-            </ul>
             <?php endif ?>
-            <form class="navbar-form navbar-left" role="search" method="get" action=" ">
-                <div class="form-group">
-                    <input type="text" class="form-control" placeholder="Search" name="search">
-                </div>
-                <button type="submit" name="action" value="home" class="btn btn-default">Search</button>
-            </form>
+                <li><a href="?action=search">Search</a></li>
+            </ul>
         </div><!-- /.navbar-collapse -->
     </div><!-- /.container-fluid -->
 </nav>

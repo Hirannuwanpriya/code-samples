@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="418a6751-6504-498d-8319-12dc1ff87085" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autoload/Blog/Model/BlogPostModel.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autoload/Blog/Config.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autoload/Blog/View/Admin/login.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autoload/Blog/Controller/PostController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autoload/Blog/Controller/SearchController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autoload/Blog/View/Admin/post.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/autoload/Blog/View/search.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autoload/Blog/Controller/AdminController.php" afterPath="$PROJECT_DIR$/autoload/Blog/Controller/AdminController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autoload/Blog/Model/BlogPostModel.php" afterPath="$PROJECT_DIR$/autoload/Blog/Model/BlogPostModel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autoload/Blog/Controller/HomeController.php" afterPath="$PROJECT_DIR$/autoload/Blog/Controller/HomeController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autoload/Blog/Model/PostModel.php" afterPath="$PROJECT_DIR$/autoload/Blog/Model/PostModel.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autoload/Blog/Controller/ViewController.php" afterPath="$PROJECT_DIR$/autoload/Blog/Controller/ViewController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autoload/Blog/View/header.php" afterPath="$PROJECT_DIR$/autoload/Blog/View/header.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autoload/Blog/View/home.php" afterPath="$PROJECT_DIR$/autoload/Blog/View/home.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autoload/index.php" afterPath="$PROJECT_DIR$/autoload/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autoload/Blog/View/Admin/home.php" afterPath="$PROJECT_DIR$/autoload/Blog/View/Admin/home.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/autoload/Blog/View/Admin/login.php" afterPath="$PROJECT_DIR$/autoload/Blog/View/Admin/login.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="code-samples.iws" />
@@ -37,43 +40,23 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autoload/index.php">
+      <file leaf-file-name="SearchController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoload/Blog/Controller/SearchController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.115385" vertical-offset="160" max-vertical-offset="850">
-              <caret line="31" column="79" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="935">
+              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="24" />
               <folding>
-                <element signature="e#6#59#0#PHP" expanded="true" />
+                <element signature="e#34#63#0#PHP" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ViewController.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autoload/Blog/Controller/ViewController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="595">
-              <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autoload/Blog/View/Admin/home.php">
+        <entry file="file://$PROJECT_DIR$/autoload/Blog/View/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="204">
-              <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autoload/Blog/View/header.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-14.923077" vertical-offset="326" max-vertical-offset="1054">
-              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="86" />
+            <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="578">
+              <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -82,8 +65,8 @@
       <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/autoload/Blog/Controller/HomeController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-20.0" vertical-offset="347" max-vertical-offset="1037">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="1003">
+              <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
               <folding>
                 <element signature="e#34#63#0#PHP" expanded="true" />
               </folding>
@@ -91,11 +74,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BlogPostModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autoload/Blog/Model/BlogPostModel.php">
+      <file leaf-file-name="login.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoload/Blog/View/Admin/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="30.076923" vertical-offset="1071" max-vertical-offset="2346">
-              <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+            <state vertical-scroll-proportion="-7.1923075" vertical-offset="102" max-vertical-offset="884">
+              <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoload/Blog/Controller/ViewController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="612">
+              <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
               <folding />
             </state>
           </provider>
@@ -104,42 +97,53 @@
       <file leaf-file-name="AdminController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/autoload/Blog/Controller/AdminController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-19.615385" vertical-offset="0" max-vertical-offset="697">
-              <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
+            <state vertical-scroll-proportion="-20.346153" vertical-offset="304" max-vertical-offset="1054">
+              <caret line="49" column="131" selection-start-line="49" selection-start-column="131" selection-end-line="49" selection-end-column="131" />
+              <folding>
+                <element signature="e#35#64#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoload/Blog/View/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.23077" vertical-offset="309" max-vertical-offset="986">
+              <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="46" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/autoload/Blog/View/Admin/login.php">
+      <file leaf-file-name="search.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/autoload/Blog/View/search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21159421" vertical-offset="143" max-vertical-offset="867">
-              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+            <state vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="850">
+              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+              <folding>
+                <marker date="1454622183739" expanded="true" signature="1043:1090" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="post.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/autoload/Blog/View/Admin/post.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.37666175" vertical-offset="0" max-vertical-offset="680">
+              <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="home.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autoload/Blog/View/home.php">
+        <entry file="file://$PROJECT_DIR$/autoload/Blog/View/Admin/home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="595">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="28" selection-end-column="6" />
+            <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="697">
+              <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="23" selection-end-column="48" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PostModel.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/autoload/Blog/Model/PostModel.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.0185184" vertical-offset="477" max-vertical-offset="1241">
-              <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="45" />
-              <folding>
-                <marker date="1454595958459" expanded="true" signature="549:579" placeholder="SELECT * FRO..posts..." />
-                <marker date="1454595958459" expanded="true" signature="630:649" placeholder="SELECT * FRO..posts..." />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -161,17 +165,22 @@
         <option value="$PROJECT_DIR$/autoload/Blog/View/ViewController.php" />
         <option value="$PROJECT_DIR$/autoload/Blog/View/head.php" />
         <option value="$PROJECT_DIR$/autoload/Blog/View/footer.php" />
-        <option value="$PROJECT_DIR$/autoload/Blog/View/Admin/home.php" />
-        <option value="$PROJECT_DIR$/autoload/Blog/Model/BlogPostModel.php" />
         <option value="$PROJECT_DIR$/autoload/Blog/Config.php" />
-        <option value="$PROJECT_DIR$/autoload/Blog/Model/PostModel.php" />
+        <option value="$PROJECT_DIR$/autoload/Blog/Model/BlogPostModel.php" />
         <option value="$PROJECT_DIR$/autoload/Blog/View/home.php" />
-        <option value="$PROJECT_DIR$/autoload/Blog/View/header.php" />
-        <option value="$PROJECT_DIR$/autoload/Blog/Controller/HomeController.php" />
-        <option value="$PROJECT_DIR$/autoload/index.php" />
+        <option value="$PROJECT_DIR$/autoload/Blog/View/Admin/addpost.php" />
+        <option value="$PROJECT_DIR$/autoload/Blog/View/Admin/home.php" />
+        <option value="$PROJECT_DIR$/autoload/Blog/Controller/PostController.php" />
         <option value="$PROJECT_DIR$/autoload/Blog/Controller/ViewController.php" />
+        <option value="$PROJECT_DIR$/autoload/Blog/View/header.php" />
+        <option value="$PROJECT_DIR$/autoload/index.php" />
+        <option value="$PROJECT_DIR$/autoload/Blog/Controller/SearchController.php" />
+        <option value="$PROJECT_DIR$/autoload/Blog/Model/PostModel.php" />
+        <option value="$PROJECT_DIR$/autoload/Blog/View/search.php" />
+        <option value="$PROJECT_DIR$/autoload/Blog/Controller/HomeController.php" />
         <option value="$PROJECT_DIR$/autoload/Blog/Controller/AdminController.php" />
         <option value="$PROJECT_DIR$/autoload/Blog/View/Admin/login.php" />
+        <option value="$PROJECT_DIR$/autoload/Blog/View/Admin/post.php" />
       </list>
     </option>
   </component>
@@ -361,6 +370,11 @@
     <property name="LayoutCode.rearrangeEntriesPHP" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\code-samples\autoload\Blog\Controller" />
+      <recent name="C:\wamp\www\code-samples\autoload\Blog\View" />
+      <recent name="C:\wamp\www\code-samples\autoload\Blog\View\Admin" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\wamp\www\code-samples\autoload\Blog\Controller" />
     </key>
@@ -451,7 +465,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -472,53 +486,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/autoload/Blog/View/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="713">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="716">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoload/Blog/View/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.923077" vertical-offset="326" max-vertical-offset="1054">
-          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="86" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoload/Blog/Model/PostModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.0185184" vertical-offset="477" max-vertical-offset="1241">
-          <caret line="44" column="12" selection-start-line="44" selection-start-column="12" selection-end-line="44" selection-end-column="45" />
-          <folding>
-            <marker date="1454595958459" expanded="true" signature="549:579" placeholder="SELECT * FRO..posts..." />
-            <marker date="1454595958459" expanded="true" signature="630:649" placeholder="SELECT * FRO..posts..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoload/Blog/Model/BlogPostModel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="30.076923" vertical-offset="1071" max-vertical-offset="2346">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoload/Blog/Controller/ViewController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075" vertical-offset="0" max-vertical-offset="595">
-          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
           <folding />
         </state>
       </provider>
@@ -533,20 +504,115 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/autoload/Blog/Model/BlogPostModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.5" vertical-offset="408" max-vertical-offset="2346">
+          <caret line="37" column="27" selection-start-line="37" selection-start-column="20" selection-end-line="37" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoload/Blog/View/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="713">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoload/Blog/Controller/PostController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1139">
+          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="60" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/autoload/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.115385" vertical-offset="160" max-vertical-offset="850">
-          <caret line="31" column="79" selection-start-line="31" selection-start-column="79" selection-end-line="31" selection-end-column="79" />
+        <state vertical-scroll-proportion="-14.461538" vertical-offset="134" max-vertical-offset="850">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
           <folding>
             <element signature="e#6#59#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/autoload/Blog/Model/PostModel.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.5925927" vertical-offset="1004" max-vertical-offset="2924">
+          <caret line="80" column="9" selection-start-line="80" selection-start-column="9" selection-end-line="80" selection-end-column="9" />
+          <folding>
+            <marker date="1454621996743" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..posts..." />
+            <marker date="1454621996743" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..posts..." />
+            <marker date="1454621996743" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..posts..." />
+            <marker date="1454621996743" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..posts..." />
+            <marker date="1454621996743" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..posts..." />
+            <marker date="1454621996743" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..posts..." />
+            <marker date="1454621996743" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1454621996743" expanded="true" signature="-1:-1" placeholder="UPDATE posts..." />
+            <marker date="1454621996743" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1454621996743" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..posts..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoload/Blog/View/Admin/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231" vertical-offset="0" max-vertical-offset="697">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="23" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoload/Blog/View/search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-18.307692" vertical-offset="0" max-vertical-offset="850">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding>
+            <marker date="1454622183739" expanded="true" signature="1043:1090" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoload/Blog/View/home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.9230769" vertical-offset="0" max-vertical-offset="578">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoload/Blog/Controller/ViewController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="612">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoload/Blog/Controller/SearchController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="935">
+          <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="24" />
+          <folding>
+            <element signature="e#34#63#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoload/Blog/View/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.23077" vertical-offset="309" max-vertical-offset="986">
+          <caret line="43" column="28" selection-start-line="43" selection-start-column="28" selection-end-line="43" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/autoload/Blog/Controller/HomeController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-20.0" vertical-offset="347" max-vertical-offset="1037">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state vertical-scroll-proportion="-9.807693" vertical-offset="0" max-vertical-offset="1003">
+          <caret line="15" column="38" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
           <folding>
             <element signature="e#34#63#0#PHP" expanded="true" />
           </folding>
@@ -555,32 +621,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/autoload/Blog/Controller/AdminController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.615385" vertical-offset="0" max-vertical-offset="697">
-          <caret line="30" column="44" selection-start-line="30" selection-start-column="44" selection-end-line="30" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoload/Blog/View/Admin/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="204">
-          <caret line="3" column="0" selection-start-line="3" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/autoload/Blog/View/home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.65384614" vertical-offset="0" max-vertical-offset="595">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="28" selection-end-column="6" />
-          <folding />
+        <state vertical-scroll-proportion="-20.346153" vertical-offset="304" max-vertical-offset="1054">
+          <caret line="49" column="131" selection-start-line="49" selection-start-column="131" selection-end-line="49" selection-end-column="131" />
+          <folding>
+            <element signature="e#35#64#0#PHP" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/autoload/Blog/View/Admin/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21159421" vertical-offset="143" max-vertical-offset="867">
-          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="102" max-vertical-offset="884">
+          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/autoload/Blog/View/Admin/post.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37666175" vertical-offset="0" max-vertical-offset="680">
+          <caret line="15" column="70" selection-start-line="15" selection-start-column="70" selection-end-line="15" selection-end-column="70" />
           <folding />
         </state>
       </provider>
