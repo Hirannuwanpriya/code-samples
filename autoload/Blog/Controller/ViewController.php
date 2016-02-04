@@ -8,6 +8,7 @@ class ViewController
     private $themes = array(
         'home' => 'home.php',
         'post' => 'post.php',
+        'login'=> 'Admin\login.php',
         'admin_home' => 'Admin\home.php'
     );
 

@@ -12,18 +12,18 @@
                         </div>
                         <div class="panel-body">
                             <?php print $post['body']; ?>
+                            <?php if (count($posts) == 1) :?>
+                                <a href="?action=home" class="btn btn-primary" role="button">Back to List</a>
+                            <?php else: ?>
+                                <a href="?action=home&post=<?php print $post['id']; ?>" class="btn btn-primary" role="button">Read more</a>
+                            <?php endif ?>
                         </div>
                     </div>
-
-
-
-
-                <?php endforeach ?>
+               <?php endforeach ?>
             <?php endif ?>
 
         </div>
         <div class="col-md-4">
-            s
         </div>
     </div>
 </div>
