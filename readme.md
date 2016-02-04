@@ -1,5 +1,5 @@
 git add -A
 
-git commit -M 'Commit message'
+git commit -m 'Commit message'
 
-git push -U origin master
+git push -u origin master
