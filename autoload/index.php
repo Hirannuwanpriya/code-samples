@@ -11,7 +11,6 @@ define('DATABASE_USER','root');
 define('DATABASE_PASSWORD','');
 
 
-
 /**
  * Global auto load method to load the action controllers
  * @param $object
